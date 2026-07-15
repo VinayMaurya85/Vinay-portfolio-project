@@ -1,0 +1,144 @@
+.education{
+     
+    margin-top: 180px;
+    color: white;
+    flex-wrap: wrap;
+     
+    
+}
+ 
+
+  .reactrotate5{
+    animation: reactrotate5 4s linear infinite;
+     
+  }
+  @keyframes reactrotate5 {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+    
+  }
+  @media(max-width:878px){
+    .reactrotate{
+      display: none;
+    }
+  }
+  
+
+
+ .animation2{
+  height: 10px;
+  width: 20px;
+  
+  display: inline-block;
+ 
+  border-radius: 50%;
+  border: 2px solid white;
+  animation: rotateBorder 2s linear infinite;
+}
+.animation{
+  height: 30px;
+  width: 20px;
+  
+  display: inline-block;
+  margin-left: 40px;
+  border-radius: 50%;
+  border: 2px solid white;
+  animation: rotateBorder 2s linear infinite;
+}
+ 
+ .cards .card3{
+  margin-left: 50px;
+ }
+
+.education h1{
+    font-size: 49px;
+    font-weight:   650;
+     color: white;
+   text-shadow:  0 0 20px  #9f67ff;
+   display: inline-block;
+   margin-bottom: 6%;
+   
+}
+.pro {
+  text-align: center;
+}
+.education h1:hover{
+    transform:scale(1.15);
+ text-shadow:  0 0 40px  #9f67ff;
+ transition: 0.7s;
+ cursor: pointer;
+ }
+   
+  .cards{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .cards .card2{
+         margin: 0 0 0 7% ;
+       }
+       .cards .card3{
+         margin: 0 7% 0 0;
+       }
+       .cards .card1{
+         margin: 0 3% 0 3%;
+       }
+       .cards .card2:hover, .cards .card3:hover, .cards .card1:hover{
+        border: 2px solid #9f67ff ;
+box-shadow: 0 0 30px #9f67ff;
+transform: scale(1.06);
+transition: 0.4s ease-in-out;
+       }
+
+
+   @media(max-width:1230px){
+       .cards  {
+       display:  inline-block;     
+           width:   80%;
+           
+            
+           
+            
+      }
+      .todo{
+        display: flex;
+        justify-content: center;
+      }
+      .cards .card2{
+         
+        margin-bottom: 60px;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      .cards .card1{
+         margin-bottom: 60px;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      .cards .card3{
+         overflow: hidden;
+        margin-bottom: 60px;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      
+       
+         
+     }
+      @media(min-width:1231px){
+        .cards .card2{
+      width: 50%;
+     }
+     .cards .card1{
+      width: 50%;
+     }
+     .cards .card3{
+      width: 50%;
+     }
+      }
+       
+      
+   

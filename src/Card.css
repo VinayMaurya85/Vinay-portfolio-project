@@ -1,0 +1,49 @@
+.cardc{
+    display: flex;
+      
+}
+.cardc p{
+    margin-right: 10px;
+    background-color: #e0e3e5;
+    padding: 0 5px;
+    border-radius: 5px;
+    color: #45464d;
+}
+ 
+     
+    .cardmedia:hover{
+        cursor: pointer;
+    }
+     .mar{
+        margin-top: auto;
+     }
+      @media(max-width:550px){
+        .cardc .kk p{
+           display: none; 
+        }
+      }
+       .kkk{
+        display: flex;
+       }
+       .kkk p{
+         margin-right: 10px;
+    background-color: #e0e3e5;
+    padding: 0 5px;
+    border-radius: 5px;
+    color: #45464d;
+       }
+       @media(min-width:551px ) {
+        .kkk p{
+            display: none;
+        }
+       }
+        @media(max-width:1461px){
+            .kkk p{
+                display: block;
+            }
+        }
+        @media(max-width:1460px){
+        .cardc .kk p{
+           display: none; 
+        }
+      }

@@ -1,0 +1,82 @@
+.fotter{
+    color: white;
+        margin-top: 130px;
+        border-top: .1px solid rgba(255, 255, 255, 0.145);
+    text-align: center;
+    /* background-color: white; */
+
+}
+.fotter h1{
+    margin-top: 70px;
+    color:#9f67ff;
+     margin-bottom: 10px;
+    text-shadow: -10px -50px 100px #9f67ff;
+}
+.fotter p{
+    color: gray;
+    font-size: 17px;
+}
+.last{
+    color: white;
+     display: flex;
+     justify-content: center;
+     font-size: 22px;
+     
+}
+.last div{
+    width: 55px;
+    height: 55px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: rgba(128, 128, 128, 0.132);
+     border-radius: 50%;
+     margin-left: 16px;
+}
+.last div:hover{
+    box-shadow:0 0 20px #9f67ff ;
+    background-color: #9f67ff;
+    cursor: pointer;
+     width: 58px;
+     height: 58px;
+     transition: 1s;
+}
+.lasts{
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+.laste {
+    position: fixed;
+    background-color: black;
+    width: 55px;
+    right: 30px;
+    bottom: 30px;
+    height: 55px;
+    border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+       background: linear-gradient(90deg, #b14cff, #57b6ff);
+       box-shadow: 0 0 10px #9f67ff;
+        z-index: 9999;
+   }
+   .lastes{
+    display: flex;
+    justify-content: flex-end;
+     
+    
+   }
+   .laste a{
+       color: white;
+         
+   }
+   .laste:hover{
+     width: 60px;
+    height: 60px;
+    cursor: pointer;
+    background: linear-gradient(90deg, #b14cff, #57b6ff);
+    transition: 0.7s;
+    box-shadow: 0 0 17px #9f67ff;
+    
+
+   }

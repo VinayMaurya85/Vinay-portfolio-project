@@ -1,0 +1,161 @@
+.about{
+    color: white;
+    margin-top: 30px; 
+        display: flex;
+     
+}
+.aboutme h1{
+  font-weight:   650;
+    font-size: 49px;
+    margin: 50px;
+    color:white ;
+      text-shadow: 0 0 30px #9f67ff;
+      
+    
+}
+.box{
+     
+     animation: vinay both;
+     animation-timeline: view();
+ 
+
+ 
+  
+    
+ }
+ @keyframes vinay {
+   from{
+    opacity: 0;
+    transform: translateY(100px);}
+to{
+   opacity: 1;
+    transform: translateY( 0);
+}
+ }
+ 
+  
+   
+.aboutme{ 
+    
+    width: 50%;
+    height: 400px;
+     flex: 1;
+    
+}
+.aboutme2 p{
+   font-size: 20px;
+     margin:  50px auto;
+     max-width: 700px;
+     
+     width: 100%;
+    color:rgba(255, 255, 255, 0.636);
+    
+}
+.aboutme2{
+    width: 50%;
+   
+}
+@media(max-width:860px){
+    .about{
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutme,.aboutme2{
+        width: 100%;
+
+    }
+    .aboutme h1{
+        margin:20px 0;
+        text-align:center;
+        font-size: 45;
+    }
+    .aboutme2 p{
+        width: 90%;
+        margin: 20px auto;
+        font-size: 16px;
+    }
+     .aboutme{
+        text-align: center;
+        
+     }
+      .box2 div{
+        font-size: 12px;
+        /* border: 2px solid black; */
+        width: 100px;
+         
+        margin: 2%;
+      }
+       
+       
+      
+
+}
+.aboutme h1:hover{
+    transform:scale(1.15);
+    cursor: pointer;
+    text-shadow: 0 0 50px #9f67ff;
+transition: 0.7s;
+}
+.aboutme .img{
+    
+    width: 40%;
+    border-radius: 50%;
+    text-shadow:  0 0 10px  purple;
+
+}
+.aboutme .img:hover{
+     text-shadow: 0 0 30px #9f67ff;
+     border-radius: 10%;
+
+     border: 1px solid #9f67ff;
+     transition: 0.9s ease-in-out ;
+}
+ 
+ @media(min-width:860px){
+    .aboutme img{
+        margin-left: 7%;
+    }
+ }
+ .about .box{
+    display: flex;
+    
+ }
+  
+  
+ .box{
+     width: 93%;
+     
+     margin-top:  12%;
+     margin-left:  3.4%;
+     margin-right: auto;
+     height: 200px;
+     border-radius: 20px;
+      display: flex;
+      justify-content: center;
+position: relative;
+background-color: #9f67ff;
+     
+ }
+ .box2{
+    position: absolute;
+    width: 80%;
+    height:  96%;
+    border-radius: 20px;
+    
+  top: -60px; 
+  color: white; 
+  display: flex;
+  justify-content: space-around;
+   align-items: center;
+   background-color:  #141414;
+ }
+ 
+ .box:hover{
+    box-shadow:  0 0 20px  purple;
+    width: 95%;
+    height: 210px;
+transition: 0.6s;
+ }
+ .box2:hover{
+    box-shadow:  0 0 20px  purple;
+ }

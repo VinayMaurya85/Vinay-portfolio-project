@@ -1,0 +1,203 @@
+.home{
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+      min-height: 85vh;
+align-items: center;  
+ padding-top: 230px; 
+ padding-bottom: 120px;
+  
+
+     
+}
+.vinay{
+    font-size:   360%;
+    font-weight: bold;
+    
+
+}
+ 
+.vinayfirst{
+    width: 50%;
+     
+     
+     
+}
+.vinayfirst p{
+    width: 60%;
+    color:rgba(255, 255, 255, 0.636);
+}
+.vinay span{
+    text-shadow: 0 0 20px #9f67ff;
+     
+}
+.button1{
+    padding:  10px 22px;
+    border-radius: 24px;
+ background: linear-gradient(90deg, #b14cff, #57b6ff);
+    color: white;
+    font-weight: bold;
+    box-shadow:  0 0 20px #9f67ff;
+      border: none;
+       margin-right: 20px;
+}
+.button1:hover{
+    
+    padding: 12px 24px;
+    transition-duration: 0.6s;
+}
+  .button2{
+    padding:  10px 22px;
+    border-radius: 24px;
+     background: transparent;
+     border: 2px solid #9f67ff;
+    color: wheat;
+   
+  
+    font-weight: bold;
+    
+    
+}
+.button2:hover{
+   background: linear-gradient(90deg, #b14cff, #57b6ff);
+   color: black;
+    box-shadow:  0 0 20px  #9f67ff;
+    transition-duration: 0.6s;
+    padding: 12px 24px;
+}
+ @keyframes rotateBorder{
+    from{ 
+        transform: rotate(0deg);}
+        to{
+            transform:rotate(360deg);
+        }
+ }
+ @keyframes rotateimage{
+    from{ 
+        transform: rotate(0deg);}
+        to{
+            transform:rotate(-1080deg);
+        }
+ }
+.vinaysecond img{
+     height: 270px;
+     width: 270px;
+     border-radius: 50%;
+     border: 2px solid #9f67ff;
+     box-shadow: 0 0 15px #9f67ff, 0 0 40px purple;
+      display: flex;   
+      animation: rotateimage   24s linear infinite;
+      
+}
+.vinaysecond img:hover{
+     box-shadow:  0 0 20px  #9f67ff;
+     height: 400px;
+     border-radius: 10%;
+     width: 300px;
+     transition: 0.7s  ;     
+}
+.buttons{
+    margin-top:40px;
+}
+ 
+.vinaysecond{
+/* border: dashed rgb(223, 16, 223);
+ */
+ border:dashed #9f67ff;
+border-radius: 50%;
+ width: 300px;
+ height: 400px;
+   
+     animation: rotateBorder 24s linear infinite;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+  
+ @media (max-width:860px){
+        .home{
+            display  :block; 
+             
+             
+        }
+        .button1{
+            margin-bottom: 14px;
+        }
+        .buttons{
+    margin-top:40px;}
+
+        .previous{
+            display: none ;
+        }
+          .home1 .photo{
+           display: flex;
+           justify-self: center;
+
+          }
+         
+         .lines h1{
+            font-size: 300%;
+
+         }
+        .lines .vinay{
+            width: 355px;
+        }
+        .lines{
+            width: 400px;  
+                                                 
+        }
+        .blinks{
+            width: 500px;
+        }
+        h2 .blik {
+             width: 280px;
+        }
+        .lines p{
+            width: 100%;
+        }
+          .photo{
+           margin-bottom:30px;
+          }
+           
+          .lines{
+             width: 85%;
+             margin: 40px;
+
+          }  
+          .home1 .photo{
+            width: 300px;
+            height: 300px;
+          }
+          @keyframes rotateimage {
+            from{ 
+        transform: rotate(0deg);}
+        to{
+            transform:rotate(-360deg);
+        }
+            
+          }   
+ }
+  
+  
+  @media(min-width:861px){
+    .current{
+        display: none;
+    }
+  }
+ 
+ 
+  
+      
+ 
+      
+      
+       
+ 
+ 
+       
+ 
+   
+ 
+ 

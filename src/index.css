@@ -1,0 +1,18 @@
+ body #root{
+    margin:0px;
+   
+    /* background-image:url(https://wallpapers.com/images/hd/solid-dark-blue-background-zuqghzeworw10oy5.jpg);
+     */
+      width: 100%;
+      height: auto;
+        background-color: #050816;
+          
+       overflow-x: hidden;
+
+
+   }
+   html{
+    scroll-behavior: smooth;
+   }
+    
+     
