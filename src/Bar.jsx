@@ -38,20 +38,20 @@ import Fotter from "./Fotter.jsx"
       
       </ul>
             <ul className="sidebar"> 
-         <li onClick={closes}><a href="#home"> <img src={close} alt="close"  className="close"/></a></li>
-         <li className="navitem"><a 
+         <li onClick={closes}>  <img src={close} alt="close"  className="close"/></li>
+         <li onClick={closes} className="navitem"><a 
           href="#home"  >Home</a></li>
-          <li className="navitem" ><a 
+          <li onClick={closes} className="navitem" ><a 
            href="#about"  >About</a></li>
-        <li className="navitem"><a 
+        <li onClick={closes} className="navitem"><a 
          href="#skills"  >Skills</a></li>
-         <li className="navitem"><a 
+         <li onClick={closes} className="navitem"><a 
           href="#education"  >Education</a></li>
-        <li className="navitem"><a 
+        <li onClick={closes} className="navitem"><a 
          href="#projects" >Projects</a></li>
-         <li className="navitem"><a 
+         <li onClick={closes} className="navitem"><a 
           href="#certificate">Certificate</a></li>
-        <li className="navitem"><a 
+        <li onClick={closes} className="navitem"><a 
          href="#contact">Contact</a></li>
 
       </ul>
