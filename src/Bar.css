@@ -164,5 +164,9 @@ ul li{
     }
     
   }
+.close{
+    height: 40px;
+    margin: 20px 10px;
+  }
   
    
