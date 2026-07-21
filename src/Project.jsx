@@ -17,7 +17,7 @@ export default function Project(){
 
    
 
-   <MediaCard  className="card card1"  title="Calculaor Project" image={Calculator}  
+   <MediaCard  className="card card1"  title="Calculator Project" image={Calculator}  
    HTML="HTML" CSS="CSS"  JAVASCRIPT="JAVASCRIPT"  para="A responsive calculator built with React and
     JavaScript that perfroms basic arithmetic operations with a clean and user-friendly interface."/>
     <MediaCard  className="card card3" image={Weath} title="Weather Cheak Project" 
